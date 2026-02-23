@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/src/output.css">
+  <title>Registration Form</title>
+</head>
+<body class=" flex ">
+
+  <section>
+    <img class="w-206" src="./src/img/walshak.png" alt="">
+  </section>
+
+  <div class="ml-80 mt-30">
+
+    <div class="w-20 h-20 bg-yellow-400 rounded-full flex justify-center items-center ml-46"></div>
+    <div class="mb-6 mt-10">
+      <img src="src/img/British School 1 (1).png" alt="Logo" class="w-32">
+    </div>
+
+    <!-- Title -->
+    <h2 class="text-2xl font-semibold text-gray-700 mb-2">Registration Form</h2>
+    <p class="text-sm text-gray-400 mb-6">Already have an account? <a href="#" class="text-yellow-500">Login</a></p>
+
+    <!-- Form -->
+    <form class="space-y-4">
+      <div class="flex gap-4">
+        <input type="text" placeholder="First Name *" class="flex-1 border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-yellow-300">
+        <input type="text" placeholder="Last Name *" class="flex-1 border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-yellow-300">
+      </div>
+      <input type="email" placeholder="Enter Email *" class="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-yellow-300">
+      <input type="email" placeholder="Confirm Email *" class="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-yellow-300">
+      <div class="flex gap-4">
+        <input type="text" placeholder="Phone Number *" class="flex-1 border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-yellow-300">
+        <input type="text" placeholder="Token *" class="flex-1 border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-yellow-300">
+      </div>
+
+      <!-- Gender checkboxes -->
+      <div class="flex items-center gap-4">
+        <label class="flex items-center gap-1">
+          <input type="checkbox" class="w-4 h-4">
+          <span class="text-gray-500">Male</span>
+        </label>
+        <label class="flex items-center gap-1">
+          <input type="checkbox" class="w-4 h-4">
+          <span class="text-gray-500">Female</span>
+        </label>
+      </div>
+
+      <!-- Register Button -->
+       <div class="flex justify-center">
+        <div class="w-40 h-10 bg-yellow-400 flex justify-center items-center">
+          <button>REGISTER</button>
+       </div> 
+       </div>
+       
+    </form>
+    
+  </div>
+
+</body>
+</html>
